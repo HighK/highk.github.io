@@ -1,5 +1,5 @@
 ---
-layout : home
+layout : categories
 ---
 <ul id="post-list">
     {% for post in site.categories.test %}
