@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: home
 ---
 <ul id="post-list">
-    {% for post in site.categories.test %}
+    {% for post in site.categories.dev %}
         {% include item.html %}
     {% endfor %}
 </ul>
