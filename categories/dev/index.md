@@ -1,5 +1,5 @@
 ---
-layout: [archive, default]
+layout: single
 ---
 <ul id="post-list">
     {% for post in site.categories.dev %}
