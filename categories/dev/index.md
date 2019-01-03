@@ -2,7 +2,7 @@
 layout: page
 ---
 <ul id="post-list">
-    {% for post in site.categories.third %}
+    {% for post in site.categories.dev %}
         {% include item.html %}
     {% endfor %}
 </ul>
